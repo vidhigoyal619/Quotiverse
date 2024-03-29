@@ -1,0 +1,378 @@
+[
+    {
+      "id": 1,
+      "quote_title": "The only way to do great work is to love what you do.",
+      "category": "Inspiration"
+    },
+    {
+      "id": 2,
+      "quote_title": "Believe you can and you're halfway there.",
+      "category": "Inspiration"
+    },
+    {
+      "id": 3,
+      "quote_title": "In the middle of difficulty lies opportunity.",
+      "category": "Inspiration"
+    },
+    {
+      "id": 4,
+      "quote_title": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "category": "Inspiration"
+    },
+    {
+      "id": 5,
+      "quote_title": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "category": "Inspiration"
+    },
+    {
+      "id": 6,
+      "quote_title": "Friendship is born at that moment when one person says to another, 'What! You too? I thought I was the only one.'",
+      "category": "Friendship"
+    },
+    {
+      "id": 7,
+      "quote_title": "A friend is someone who knows all about you and still loves you.",
+      "category": "Friendship"
+    },
+    {
+      "id": 8,
+      "quote_title": "Friends are the family you choose.",
+      "category": "Friendship"
+    },
+    {
+      "id": 9,
+      "quote_title": "A real friend is one who walks in when the rest of the world walks out.",
+      "category": "Friendship"
+    },
+    {
+      "id": 10,
+      "quote_title": "Friendship is the only cement that will ever hold the world together.",
+      "category": "Friendship"
+    },
+    {
+      "id": 11,
+      "quote_title": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+      "category": "Success"
+    },
+    {
+      "id": 12,
+      "quote_title": "Success usually comes to those who are too busy to be looking for it.",
+      "category": "Success"
+    },
+    {
+      "id": 13,
+      "quote_title": "The road to success and the road to failure are almost exactly the same.",
+      "category": "Success"
+    },
+    {
+      "id": 14,
+      "quote_title": "Opportunities don't happen. You create them.",
+      "category": "Success"
+    },
+    {
+      "id": 15,
+      "quote_title": "The secret of success is to be ready when your opportunity comes.",
+      "category": "Success"
+    },
+    {
+      "id": 16,
+      "quote_title": "Courage is resistance to fear, mastery of fear, not absence of fear.",
+      "category": "Courage"
+    },
+    {
+      "id": 17,
+      "quote_title": "Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen.",
+      "category": "Courage"
+    },
+    {
+      "id": 18,
+      "quote_title": "Courage is being scared to death, but saddling up anyway.",
+      "category": "Courage"
+    },
+    {
+      "id": 19,
+      "quote_title": "All our dreams can come true, if we have the courage to pursue them.",
+      "category": "Courage"
+    },
+    {
+      "id": 20,
+      "quote_title": "It takes courage to grow up and become who you really are.",
+      "category": "Courage"
+    },
+    {
+      "id": 21,
+      "quote_title": "The best thing to hold onto in life is each other.",
+      "category": "Love"
+    },
+    {
+      "id": 22,
+      "quote_title": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+      "category": "Love"
+    },
+    {
+      "id": 23,
+      "quote_title": "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+      "category": "Love"
+    },
+    {
+      "id": 24,
+      "quote_title": "Love yourself first and everything else falls into line.",
+      "category": "Love"
+    },
+    {
+      "id": 25,
+      "quote_title": "You come to love not by finding the perfect person, but by seeing an imperfect person perfectly.",
+      "category": "Love"
+    },
+        {
+          "id": 26,
+          "quote_title": "Your time is limited, don't waste it living someone else's life.",
+          "category": "Inspiration"
+        },
+        {
+          "id": 27,
+          "quote_title": "The only way to do great work is to love what you do.",
+          "category": "Inspiration"
+        },
+        {
+          "id": 28,
+          "quote_title": "The future belongs to those who believe in the beauty of their dreams.",
+          "category": "Inspiration"
+        },
+        {
+          "id": 29,
+          "quote_title": "In the midst of winter, I found there was, within me, an invincible summer.",
+          "category": "Inspiration"
+        },
+        {
+          "id": 30,
+          "quote_title": "We must be willing to let go of the life we planned so as to have the life that is waiting for us.",
+          "category": "Inspiration"
+        },
+        {
+          "id": 31,
+          "quote_title": "A real friend is one who walks in when the rest of the world walks out.",
+          "category": "Friendship"
+        },
+        {
+          "id": 32,
+          "quote_title": "Friendship is born at that moment when one person says to another, 'What! You too? I thought I was the only one.'",
+          "category": "Friendship"
+        },
+        {
+          "id": 33,
+          "quote_title": "A true friend is someone who is there for you when they'd rather be anywhere else.",
+          "category": "Friendship"
+        },
+        {
+          "id": 34,
+          "quote_title": "True friendship comes when the silence between two people is comfortable.",
+          "category": "Friendship"
+        },
+        {
+          "id": 35,
+          "quote_title": "Friendship is the hardest thing in the world to explain. It's not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything.",
+          "category": "Friendship"
+        },
+        {
+          "id": 36,
+          "quote_title": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+          "category": "Success"
+        },
+        {
+          "id": 37,
+          "quote_title": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+          "category": "Success"
+        },
+        {
+          "id": 38,
+          "quote_title": "Success is not in what you have, but who you are.",
+          "category": "Success"
+        },
+        {
+          "id": 39,
+          "quote_title": "Success is walking from failure to failure with no loss of enthusiasm.",
+          "category": "Success"
+        },
+        {
+          "id": 40,
+          "quote_title": "The road to success and the road to failure are almost exactly the same.",
+          "category": "Success"
+        },
+        {
+          "id": 41,
+          "quote_title": "Courage is not the absence of fear, but rather the judgment that something else is more important than fear.",
+          "category": "Courage"
+        },
+        {
+          "id": 42,
+          "quote_title": "Courage doesn't mean you don't get afraid. Courage means you don't let fear stop you.",
+          "category": "Courage"
+        },
+        {
+          "id": 43,
+          "quote_title": "The only limit to our realization of tomorrow will be our doubts of today.",
+          "category": "Courage"
+        },
+        {
+          "id": 44,
+          "quote_title": "Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently.",
+          "category": "Courage"
+        },
+        {
+          "id": 45,
+          "quote_title": "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face.",
+          "category": "Courage"
+        },
+        {
+          "id": 46,
+          "quote_title": "The best love is the kind that awakens the soul; that makes us reach for more, that plants the fire in our hearts and brings peace to our minds.",
+          "category": "Love"
+        },
+        {
+          "id": 47,
+          "quote_title": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+          "category": "Love"
+        },
+        {
+          "id": 48,
+          "quote_title": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+          "category": "Love"
+        },
+        {
+          "id": 49,
+          "quote_title": "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+          "category": "Love"
+        },
+        {
+          "id": 50,
+          "quote_title": "The best thing to hold onto in life is each other.",
+          "category": "Love"
+        },
+            {
+              "id": 51,
+              "quote_title": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+              "category": "Inspiration"
+            },
+            {
+              "id": 52,
+              "quote_title": "The future belongs to those who believe in the beauty of their dreams.",
+              "category": "Inspiration"
+            },
+            {
+              "id": 53,
+              "quote_title": "Your limitation—it's only your imagination.",
+              "category": "Inspiration"
+            },
+            {
+              "id": 54,
+              "quote_title": "It's not whether you get knocked down, it's whether you get up.",
+              "category": "Inspiration"
+            },
+            {
+              "id": 55,
+              "quote_title": "Hardships often prepare ordinary people for an extraordinary destiny.",
+              "category": "Inspiration"
+            },
+            {
+              "id": 56,
+              "quote_title": "A true friend is one soul in two bodies.",
+              "category": "Friendship"
+            },
+            {
+              "id": 57,
+              "quote_title": "A friend is someone who gives you total freedom to be yourself.",
+              "category": "Friendship"
+            },
+            {
+              "id": 58,
+              "quote_title": "The language of friendship is not words but meanings.",
+              "category": "Friendship"
+            },
+            {
+              "id": 59,
+              "quote_title": "Friendship is the golden thread that ties the heart of all the world.",
+              "category": "Friendship"
+            },
+            {
+              "id": 60,
+              "quote_title": "A real friend is one who walks in when the rest of the world walks out.",
+              "category": "Friendship"
+            },
+            {
+              "id": 61,
+              "quote_title": "The only place where success comes before work is in the dictionary.",
+              "category": "Success"
+            },
+            {
+              "id": 62,
+              "quote_title": "Success is not in what you have, but who you are.",
+              "category": "Success"
+            },
+            {
+              "id": 63,
+              "quote_title": "The only limit to our realization of tomorrow will be our doubts of today.",
+              "category": "Success"
+            },
+            {
+              "id": 64,
+              "quote_title": "The only way to achieve the impossible is to believe it is possible.",
+              "category": "Success"
+            },
+            {
+              "id": 65,
+              "quote_title": "Success is not just about making money. It's about making a difference.",
+              "category": "Success"
+            },
+            {
+              "id": 66,
+              "quote_title": "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'",
+              "category": "Courage"
+            },
+            {
+              "id": 67,
+              "quote_title": "It takes courage to grow up and become who you really are.",
+              "category": "Courage"
+            },
+            {
+              "id": 68,
+              "quote_title": "Courage is found in unlikely places.",
+              "category": "Courage"
+            },
+            {
+              "id": 69,
+              "quote_title": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+              "category": "Courage"
+            },
+            {
+              "id": 70,
+              "quote_title": "Courage is resistance to fear, mastery of fear, not absence of fear.",
+              "category": "Courage"
+            },
+            {
+              "id": 71,
+              "quote_title": "Love is composed of a single soul inhabiting two bodies.",
+              "category": "Love"
+            },
+            {
+              "id": 72,
+              "quote_title": "Love is when the other person's happiness is more important than your own.",
+              "category": "Love"
+            },
+            {
+              "id": 73,
+              "quote_title": "Love isn't something you find. Love is something that finds you.",
+              "category": "Love"
+            },
+            {
+              "id": 74,
+              "quote_title": "To love and be loved is to feel the sun from both sides.",
+              "category": "Love"
+            },
+            {
+              "id": 75,
+              "quote_title": "Love is an irresistible desire to be irresistibly desired.",
+              "category": "Love"
+            }          
+  ]
+  
