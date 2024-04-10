@@ -1,0 +1,497 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); */
+
+/* css for index.hbs file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+body{
+    /* background-color:rgba(91, 1, 164, 0.927); */
+    background-color: #f0f0f0;
+    min-height: 100vh;
+}
+.heading{
+    height: 80px;
+    background-color: rgb(57, 1, 104);
+}
+.heading i{
+    color: #fff;
+    font-size: 5rem;
+    margin: 0px 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navbar-left{
+    margin-left: 60px;
+}
+.navbar-left i{
+    color: rgb(57, 1, 104);
+    font-size: 2rem;
+}
+.btn {
+    display: inline-block;
+    padding: 0;
+    background: none;
+    border: none;
+    margin-right: 40px;
+}
+
+.btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 3px 10px 3px 1px;
+    background-color: rgb(57, 1, 104); 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn1 {
+    display: inline-block;
+    background: none;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+}
+
+.btn1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    background-color: rgb(57, 1, 104); 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin: -50px  20px;
+}
+
+.text {
+    width: 50%; 
+    padding: 5px 20px; 
+}
+h1{
+    color: rgb(57, 1, 104);
+    font-size: 3rem;
+    margin: 0px 20px;
+    margin-bottom: 1rem;
+}
+p{
+    color: #000;
+    margin: 0px 20px;
+}
+.image{
+  margin-top: 3rem;
+    margin-left: 60px;
+    width: 10%;
+    font-size: 30%;
+}
+#image1{
+  margin-top: -6rem;
+  height: 400px; 
+  width: auto; 
+}
+#image4{
+  margin-top: -6rem;
+  height: 400px; 
+  width: auto; 
+}
+.image img {
+  height: 300px; 
+  width: auto; 
+  display: block; 
+  margin-bottom: 10px; 
+  animation: fadeIn 2s forwards; 
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.footer {
+    background-color: rgb(57, 1, 104);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer p{
+    color: #fff;
+}
+
+/* css for login.hbs file */
+::selection{
+  background: rgba(26,188,156,0.3);
+}
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.wrapper .title{
+  height: 90px;
+  background: rgb(57, 1, 104);
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: rgb(57, 1, 104);
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .row input::placeholder{
+  color: #999;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: rgb(57, 1, 104);
+  border: 1px solid rgb(57, 1, 104);
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+  color: rgb(57, 1, 104);
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: rgb(57, 1, 104);
+  border: 1px solid rgb(57, 1, 104);
+  cursor: pointer;
+}
+form .button input:hover{
+  background: rgb(57, 1, 104);
+}
+.wrapper form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .signup-link, .login-link a{
+  color: rgb(57, 1, 104);
+  text-decoration: none;
+}
+form .signup-link, .login-link a:hover{
+  text-decoration: underline;
+}
+
+/* css for popup.hbs file */
+.survey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.q1{
+  background-color: #ffffff; 
+  padding: 20px;
+  margin-top: 5rem;
+  color: rgb(57, 1, 104);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  display: block;
+}
+.head-container {
+  text-align: center;
+}
+
+.option1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option1 li {
+  margin-bottom: 10px;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+}
+.survey li{
+  margin: 5px;
+  cursor: pointer;
+  width: 150px;
+padding: 4px;
+}
+.survey li:hover{
+background-color: rgb(57, 1, 104);
+color: #ffff;
+}
+.submit-btn{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 4px 5px;
+  background: rgb(57, 1, 104);
+  border: 1px solid rgb(57, 1, 104);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.end{
+  background-color: #ffff;
+  color: rgb(57, 1, 104);
+  width: 30%;
+  margin: 35% auto;
+  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.end h2{
+  margin: 5px;
+  padding: 10px;
+}
+.end p{
+  padding: 10px;
+  color: rgb(57, 1, 104);
+  justify-content: center;
+}
+.end a{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: rgb(57, 1, 104);
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width:fit-content;
+}
+
+
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 10px; 
+    display: block;
+    
+  }
+   .heading lord-icon{
+    width:30px;
+    height:30px;
+    margin-top: -4px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .navbar-left {
+    margin-left: 20px;
+  }
+
+  .btn, .btn1 {
+    margin-right: 20px;
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .btn1 {
+    margin-top: 0.5rem; 
+    margin-left: 0.8rem; 
+  }
+
+  .main {
+    display: block;
+    padding: 0rem .5rem;
+  }
+
+  .content {
+    display: block;
+    margin: 0; 
+  }
+
+  .text {
+    width: 100%; 
+    padding: 10px; 
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 0px 10px;
+    margin-bottom: 0.5rem; 
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0px 15px;
+  }
+
+  .image {
+    display: block;
+    width: 10%;
+  }
+  
+  #image1,
+  #image4 {
+    margin: -4rem 30px 1rem -30px; 
+    height: 300px; 
+  }
+  #image2,
+  #image3 {
+    margin: -2rem 25px 2.5rem 25px; 
+    height: 200px; 
+  }
+  .footer {
+    padding: 5px 0; 
+  }
+  /* css media queries for login.hbs file */
+  .container {
+    min-width: 80%; 
+    height: 100vh;
+    margin-top: 1rem;
+    padding: 0 10px; 
+  }
+
+  .wrapper {
+    max-width: 100%; 
+  }
+
+  .wrapper .title {
+    font-size: 24px; 
+    height: 70px; 
+  }
+
+  .wrapper form {
+    padding: 20px; 
+  }
+
+  .wrapper form .row input {
+    padding-left: 50px; 
+    font-size: 14px; 
+  }
+
+  .wrapper form .row i {
+    width: 40px; 
+    font-size: 16px; 
+  }
+
+  .wrapper form .button input {
+    font-size: 16px; 
+    text-align: center;
+    padding: 0px 0px 0px 10px;
+  }
+
+  .wrapper form .signup-link {
+    font-size: 14px; 
+  }
+
+  /* css media queries for popup.hbs file */
+  .survey{
+    width: 100%;
+    padding: 0px 20px;
+    /* margin-left: 30px; */
+  }
+  .q1 {
+    margin-top: 3rem; 
+    padding: 15px; 
+  }
+  h3{
+    font-size: 20px;
+  }
+  .survey li {
+    width: auto; 
+    font-size: 14px;
+    padding: 5px; 
+  }
+  .submit-btn{
+    font-size: 15px;
+  }
+  .end {
+    width: 80%; 
+    margin: 20% auto; 
+  }
+
+  .end h2 {
+    font-size: 24px; 
+  }
+
+  .end p {
+    font-size: 14px; 
+  }
+
+  .end a {
+    margin-top: 5px; 
+    padding: 3px; 
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotiverse</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="heading">
+        <lord-icon
+    src="https://cdn.lordicon.com/jpgpblwn.json"
+    trigger="hover"
+    colors="primary:#ffffff"
+    style="width:100px;height:100px; margin-top: -8px; margin-left: 20px;">
+</lord-icon>
+    </header>
+    <nav class="navbar-left">
+        <i class="fas fa-bars"></i>
+        <nav class="navbar-right">
+            <button class="btn"><a href="#"><lord-icon
+                src="https://cdn.lordicon.com/bgebyztw.json"
+                trigger="hover"
+                colors="primary:#ffffff,secondary:#ffffff"
+                style="width:50px;height:30px">
+            </lord-icon>Contact</a></button>
+        </nav>
+    </nav>
+    <div class="main">
+        <div class="content">
+            <div class="text">
+                <h1>Welcome to Quotiverse</h1>
+                <p>Your daily source of inspiration and motivation tailored just for you, delivered straight to your inbox according to your interests, whenever you desire.</p>
+                <!-- <button class="btn">Get Started
+                    <lord-icon src="https://cdn.lordicon.com/vduvxizq.json" trigger="hover" colors="primary:#ffffff" style="width:50px;height:50px"></lord-icon></button> -->
+                    <button class="btn1"><a href="/signup">Signup for Free<lord-icon src="https://cdn.lordicon.com/vduvxizq.json" trigger="hover" colors="primary:#ffffff" style="width:50px;height:50px"></lord-icon></a></button>
+            </div>
+            <div class="image" id="image-container">
+                <img src="images/1-removebg-preview.png" alt="Quote Icon Animated GIF Image" id="image1">
+                <img src="images/2-removebg-preview.png" alt="Quote Icon Animated GIF Image" id="image2">
+                <img src="images/3-removebg-preview.png" alt="Quote Icon Animated GIF Image" id="image3">
+                <img src="images/4-removebg-preview.png" alt="Quote Icon Animated GIF Image" id="image4">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Random Quote Generator. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script>
+         var images = document.querySelectorAll('.image img');
+        var currentIndex = 0;
+        
+        function showNextImage() {
+            images.forEach(function(img, index) {
+                if (index === currentIndex) {
+                    img.style.display = 'block';
+                } else {
+                    img.style.display = 'none';
+                }
+            });
+            currentIndex = (currentIndex + 1) % images.length;
+            setTimeout(showNextImage, 3000); // 3 seconds interval
+        }
+
+        showNextImage();
+
+    </script>
+</body>
+</html>

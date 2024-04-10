@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotiverse-Survey</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <form id="surveyForm" action="/survey-success" method="POST">
+        <div class="survey">
+            {{!-- <div class="heading-container">Give us information about your interests!</div> --}}
+            <div class="q1">
+                <h3 class="head-container">What category of quotes are you most interested in?</h3>
+                <ul class="option1">
+                    <li><input type="radio" name="category" value="Inspiration"> Inspirational</li>
+                    <li><input type="radio" name="category" value="Friendship"> Friendship</li>
+                    <li><input type="radio" name="category" value="Success"> Success</li>
+                    <li><input type="radio" name="category" value="Courage"> Courage</li>
+                    <li><input type="radio" name="category" value="Love"> Love</li>
+                </ul>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </div>
+    </form>
+ <footer class="footer">
+        <p>&copy; 2024 Random Quote Generator. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const q1 = document.querySelector(".q1");
+            const surveyForm = document.getElementById("surveyForm");
+
+            surveyForm.addEventListener("submit", function(event) {
+                // Prevent the form from submitting
+                event.preventDefault();
+                // Hide the form after submission
+                q1.style.display = "none";
+                // Submit the form programmatically
+                surveyForm.submit();
+            });
+        });
+    </script>
+</body>
+</html>
