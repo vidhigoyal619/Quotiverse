@@ -70,8 +70,7 @@ This project is licensed under the MIT License.
 
 Watch the demo video below to see how the Random Quotes Generator works:
 
-[![Random Quotes Generator Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
+[![Random Quotes Generator Demo](https://github.com/vidhigoyal619/Quotiverse/blob/main/Screenshot%202024-05-08%20014625.png)](https://drive.google.com/file/d/1qzt6Vhf7Yekn0wMD4N77zQVpGJtjNmJp/view?usp=drive_link)
 
 
 
